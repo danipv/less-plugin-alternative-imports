@@ -1,0 +1,36 @@
+{
+  "name": "less-plugin-alternative-imports",
+  "version": "1.0.0",
+  "description": "Alternative imports in less files",
+  "author": "Daniel Pascual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danipv/less-plugin-alternative-imports.git"
+  },
+  "keywords": [
+    "imports",
+    "css",
+    "less",
+    "alternative"
+  ],
+  "bugs": {
+    "url": "https://github.com/danipv/less-plugin-alternative-imports/issues"
+  },
+  "homepage": "https://github.com/danipv/less-plugin-alternative-imports",
+  "licenses": [
+      {
+          "type": "Apache v2",
+          "url": "https://github.com/less/less-plugin-inline-urls/blob/master/LICENSE"
+      }
+  ],
+  "engines": {
+      "node": ">=0.4.2"
+  },
+  "devDependencies": {
+      "less": ">=2.0.0"
+  }
+}
