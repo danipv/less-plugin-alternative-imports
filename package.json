@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-alternative-imports",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "Alternative imports in less files",
   "author": "Daniel Pascual",
   "main": "index.js",
@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/danipv/less-plugin-alternative-imports",
   "licenses": [
-      {
-          "type": "Apache v2",
-          "url": "https://github.com/less/less-plugin-inline-urls/blob/master/LICENSE"
-      }
+    {
+      "type": "Apache v2",
+      "url": "https://github.com/less/less-plugin-inline-urls/blob/master/LICENSE"
+    }
   ],
   "engines": {
-      "node": ">=0.4.2"
+    "node": ">=0.4.2"
   },
   "devDependencies": {
-      "less": ">=2.0.0"
+    "less": ">=2.0.0"
   }
 }
