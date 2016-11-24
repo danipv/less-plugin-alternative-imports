@@ -1,16 +1,16 @@
 [![NPM version](https://badge.fury.io/js/less-plugin-alternative-imports.svg)](http://badge.fury.io/js/less-plugin-alternative-imports)
 less-plugin-alternative-imports
 =======================
-Load an alternative less file in imports statemets when compiling 
+Load an alternative less file in imports statements when compiling
 ## lessc usage
 ```
 npm install -g less-plugin-alternative-imports
 ```
 and then on the command line,
 ```
-lessc --plugin=less-plugin-alternative-imports="variables:foobar"
+lessc --plugin=less-plugin-alternative-imports="foo:bar"
 ```
-Where 'variables' is the file name in the import statement '@import "variables.less"' and 'foobar' the sufix name for an alternative less file 'variables_foobar.less'.
+This will replace any 'foo' match with 'bar' in all import statements, so an import like '@import "variables_foo.less"' will be replaced by '@import "variables_bar.less"'
 ## Programmatic usage
 Programmatic usage is not supported at this time.
 ## Browser usage
